@@ -1,4 +1,4 @@
-Required data are processed in github desktop and published in here.
+Required data were processed in github desktop and published in here.
 
 
 ##Resources
