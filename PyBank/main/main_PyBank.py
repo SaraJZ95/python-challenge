@@ -7,7 +7,7 @@ import csv
 
 # Objective 2: Set the path for the CSV file in PyBankcsv
 
-PyBankcsv = os.path.join("Resources","budget_data.csv")
+PyBankcsv = os.path.join("https://raw.githubusercontent.com/SaraJZ95/python-challenge/main/PyBank/Resources/budget_data.csv")
 
 # Objective 3: Create the lists to store data. 
 
@@ -81,5 +81,3 @@ with open('financial_analysis.txt', 'w') as text:
     text.write("    Greatest Decrease in Profits: " + str(decrease_date) + " ($" + str(greatest_decrease_profits) + ")\n")
     text.write("----------------------------------------------------------\n")
 
-# Note to TA: The output does not look like the one provided in the HW instructions. 
-# I believe the budget_data.csv file is not the same as one used to come up with the sample text. 
