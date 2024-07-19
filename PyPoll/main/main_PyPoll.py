@@ -13,7 +13,7 @@ import csv
 import os
 
 # Assign a variable for the file to load and the path.
-file_to_load = os.path.join('..', 'Resources','election_data.csv')
+file_to_load = os.path.join('https://raw.githubusercontent.com/SaraJZ95/python-challenge/main/PyPoll/Resources/election_data.csv')
 # Create a filename variable to a direct or indirect of indirect path to the file.
 file_to_save = os.path.join('..','analysis','election_data.txt')
 
